@@ -30,6 +30,7 @@
 		2F5410FB2A3F98960058A577 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5410FA2A3F98960058A577 /* LoginViewViewModel.swift */; };
 		2F5410FD2A3F98A90058A577 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5410FC2A3F98A90058A577 /* RegisterViewViewModel.swift */; };
 		2F5410FF2A3F98BB0058A577 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5410FE2A3F98BB0058A577 /* ToDoListItemViewViewModel.swift */; };
+		2F5411012A3F9D8E0058A577 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5411002A3F9D8E0058A577 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		2F5410FA2A3F98960058A577 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		2F5410FC2A3F98A90058A577 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		2F5410FE2A3F98BB0058A577 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		2F5411002A3F9D8E0058A577 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				2F5410E82A3F970A0058A577 /* LoginView.swift */,
 				2F5410EA2A3F97210058A577 /* RegisterView.swift */,
 				2F5410EC2A3F97660058A577 /* ToDoListItemView.swift */,
+				2F5411002A3F9D8E0058A577 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F5410E92A3F970A0058A577 /* LoginView.swift in Sources */,
+				2F5411012A3F9D8E0058A577 /* HeaderView.swift in Sources */,
 				2F5410CA2A3F8BFF0058A577 /* MainView.swift in Sources */,
 				2F5410FD2A3F98A90058A577 /* RegisterViewViewModel.swift in Sources */,
 				2F5410F32A3F981F0058A577 /* MainViewViewModel.swift in Sources */,

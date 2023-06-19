@@ -31,6 +31,7 @@
 		2F5410FD2A3F98A90058A577 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5410FC2A3F98A90058A577 /* RegisterViewViewModel.swift */; };
 		2F5410FF2A3F98BB0058A577 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5410FE2A3F98BB0058A577 /* ToDoListItemViewViewModel.swift */; };
 		2F5411012A3F9D8E0058A577 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5411002A3F9D8E0058A577 /* HeaderView.swift */; };
+		2F600CFC2A40C5C4005012DD /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F600CFB2A40C5C4005012DD /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		2F5410FC2A3F98A90058A577 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		2F5410FE2A3F98BB0058A577 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		2F5411002A3F9D8E0058A577 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		2F600CFB2A40C5C4005012DD /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		2F5410C62A3F8BFF0058A577 /* ToDoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				2F600CFA2A40C59B005012DD /* Components */,
 				2F5410E12A3F95940058A577 /* Other */,
 				2F5410E02A3F957E0058A577 /* Models */,
 				2F5410DF2A3F956A0058A577 /* ViewModels */,
@@ -118,7 +121,6 @@
 				2F5410E82A3F970A0058A577 /* LoginView.swift */,
 				2F5410EA2A3F97210058A577 /* RegisterView.swift */,
 				2F5410EC2A3F97660058A577 /* ToDoListItemView.swift */,
-				2F5411002A3F9D8E0058A577 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +156,15 @@
 				2F5410CB2A3F8C000058A577 /* Assets.xcassets */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		2F600CFA2A40C59B005012DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2F5411002A3F9D8E0058A577 /* HeaderView.swift */,
+				2F600CFB2A40C5C4005012DD /* TLButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 				2F5410F32A3F981F0058A577 /* MainViewViewModel.swift in Sources */,
 				2F5410E72A3F96EB0058A577 /* NewItemView.swift in Sources */,
 				2F5410EB2A3F97210058A577 /* RegisterView.swift in Sources */,
+				2F600CFC2A40C5C4005012DD /* TLButton.swift in Sources */,
 				2F5410F52A3F982A0058A577 /* ProfileViewViewModel.swift in Sources */,
 				2F5410F12A3F97D40058A577 /* ToDoListItem.swift in Sources */,
 				2F5410E52A3F96CD0058A577 /* ToDoListView.swift in Sources */,
